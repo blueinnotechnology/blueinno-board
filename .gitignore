@@ -1,5 +1,6 @@
 .DS_Store
-system
+system/*
+!system/placeholder
 tools/dist
 docs/_build
 ota/build
