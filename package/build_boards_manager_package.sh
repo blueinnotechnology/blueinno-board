@@ -156,7 +156,7 @@ cat $srcdir/package/package_pico_index.template.json | \
 
 # Download previous release
 echo "Downloading base package: $base_ver"
-old_json=package_inno_index.json
+old_json=package_inno_index_stable.json
 curl -L -o $old_json "https://github.com/blueinnotechnology/blueinno-board/releases/download/${base_ver}/package_inno_index.json"
 new_json=package_inno_index.json
 
