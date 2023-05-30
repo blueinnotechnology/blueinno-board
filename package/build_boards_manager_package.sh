@@ -139,7 +139,7 @@ size=`/bin/ls -l $package_name.zip | awk '{print $5}'`
 echo Size: $size
 echo SHA-256: $sha
 
-echo "Making package_rp2040_index.json"
+echo "Making package_inno_index.json"
 
 jq_arg=".packages[0].platforms[0].version = \"$visible_ver\" | \
     .packages[0].platforms[0].url = \"$PKG_URL\" |\
@@ -152,13 +152,13 @@ if [ -z "$is_nightly" ]; then
 fi
 
 cat $srcdir/package/package_pico_index.template.json | \
-    jq "$jq_arg" > package_rp2040_index.json
+    jq "$jq_arg" > package_inno_index.json
 
 # Download previous release
 echo "Downloading base package: $base_ver"
-old_json=package_rp2040_index_stable.json
-curl -L -o $old_json "https://github.com/blueinnotechnology/blueinno-board/releases/download/${base_ver}/package_rp2040_index.json"
-new_json=package_rp2040_index.json
+old_json=package_inno_index.json
+curl -L -o $old_json "https://github.com/blueinnotechnology/blueinno-board/releases/download/${base_ver}/package_inno_index.json"
+new_json=package_inno_index.json
 
 set +e
 # Merge the old and new
@@ -180,8 +180,8 @@ mv tmp $new_json
 set -e
 cat $new_json | jq empty
 
-cat $new_log > package_rp2040_index.log
-cat $new_tag > package_rp2040_index.tag
+cat $new_log > package_inno_index.log
+cat $new_tag > package_inno_index.tag
 rm -f $new_log $new_tag
 
 popd

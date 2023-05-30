@@ -1,7 +1,7 @@
 {
    "packages": [
       {
-         "name": "rp2040",
+         "name": "blueinno",
          "maintainer": "Blueinno Technology Limited",
          "websiteURL": "https://github.com/blueinnotechnology/blueinno-board",
          "email": "contact@blueinnotechnology.com",
@@ -11,7 +11,7 @@
          "platforms": [
             {
                "category": "Raspberry Pi Pico",
-               "name": "Raspberry Pi Pico/RP2040",
+               "name": "Blueinno AIOT Boards",
                "url": "",
                "version": "",
                "architecture": "rp2040",
