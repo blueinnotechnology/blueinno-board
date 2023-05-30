@@ -336,7 +336,7 @@ BuildGlobalMenuList()
 MakeBoard("blueinno_rp2040", "Blueinno", "AIOT RP2040", "0x2e8a", "0x000a", 500, "Blueinno_AIOT_RP2040", 16, "boot2_w25q080_2_padded_checksum")
 
 # Raspberry Pi
-MakeBoard("rpipico", "Raspberry Pi", "Pico", "0x2e8a", "0x000a", 250, "RASPBERRY_PI_PICO", 2, "boot2_w25q080_2_padded_checksum")
+# MakeBoard("rpipico", "Raspberry Pi", "Pico", "0x2e8a", "0x000a", 250, "RASPBERRY_PI_PICO", 2, "boot2_w25q080_2_padded_checksum")
 # MakeBoard("rpipicow", "Raspberry Pi", "Pico W", "0x2e8a", "0xf00a", 250, "RASPBERRY_PI_PICO_W", 2, "boot2_w25q080_2_padded_checksum")
 
 # 0xCB
