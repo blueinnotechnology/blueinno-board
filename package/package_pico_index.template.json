@@ -23,37 +23,37 @@
                ],
                "toolsDependencies": [
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-c7bab52",
                      "name": "pqt-gcc"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-c7bab52",
                      "name": "pqt-mklittlefs"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-c7bab52",
                      "name": "pqt-elf2uf2"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-c7bab52",
                      "name": "pqt-pioasm"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.0.1-base-3a57aed",
                      "name": "pqt-python3"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-c7bab52",
                      "name": "pqt-openocd"
                   },
                   {
-                     "packager": "rp2040",
+                     "packager": "blueinno",
                      "version": "1.5.0-b-03f2812",
                      "name": "pqt-picotool"
                   }
