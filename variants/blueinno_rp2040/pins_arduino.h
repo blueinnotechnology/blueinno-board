@@ -87,7 +87,7 @@ static const uint8_t SCK = PIN_SPI0_SCK;
 
 #define SPIWIFI_SS		(13u)
 #define SPIWIFI_ACK		(22u)
-#define SPIWIFI_RESET	(NINA_RESETN)
+#define SPIWIFI_RESET	(IOT_RESETN)
 #define SPIWIFI 		(SPI1)
 
 #define SERIAL_PORT_USBVIRTUAL      SerialUSB
