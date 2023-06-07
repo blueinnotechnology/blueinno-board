@@ -40,7 +40,7 @@ blueinno_rp2040.pid.7=0xc10a
 blueinno_rp2040.build.usbvid=-DUSBD_VID=0x2e8a
 blueinno_rp2040.build.usbpid=-DUSBD_PID=0x000a
 blueinno_rp2040.build.usbpwr=-DUSBD_MAX_POWER_MA=500
-blueinno_rp2040.build.board=Blueinno_AIOT_RP2040
+blueinno_rp2040.build.board=BLUEINNO_AIOT_RP2040
 blueinno_rp2040.build.mcu=cortex-m0plus
 blueinno_rp2040.build.variant=blueinno_rp2040
 blueinno_rp2040.upload.maximum_size=16777216

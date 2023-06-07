@@ -85,7 +85,7 @@ protected:
     uint8_t  *_queue;
 };
 
-#ifdef ARDUINO_NANO_RP2040_CONNECT
+#ifdef ARDUINO_NANO_RP2040_CONNECT || ARDUINO_BLUEINNO_AIOT_RP2040
 // NINA updates
 extern SerialPIO Serial3;
 #endif

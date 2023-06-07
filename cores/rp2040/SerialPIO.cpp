@@ -380,7 +380,7 @@ SerialPIO::operator bool() {
     return _running;
 }
 
-#ifdef ARDUINO_NANO_RP2040_CONNECT
+#ifdef ARDUINO_NANO_RP2040_CONNECT || ARDUINO_BLUEINNO_AIOT_RP2040
 // NINA updates
 SerialPIO Serial3(SERIAL3_TX, SERIAL3_RX);
 #endif
