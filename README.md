@@ -1,7 +1,7 @@
 # Blueinno-Board
 [![Release](https://img.shields.io/github/v/release/blueinnotechnology/blueinno-board?style=plastic)](https://github.com/blueinnotechnology/blueinno-board/releases)
 
-Arduino repository for all Blueinno Boards
+Arduino core repository for all Blueinno Boards
 
 # Documentation
 
@@ -9,11 +9,6 @@ Arduino repository for all Blueinno Boards
 
 See https://arduino-pico.readthedocs.io/en/latest/ along with the examples for more detailed usage information.
 
-# Contributing
-
-> TO BE UPDATED
-
-Read the [Contributing Guide](https://github.com/earlephilhower/arduino-pico/blob/master/docs/contrib.rst) for more information on submitting pull requests and porting libraries or sketches to this core.
 
 # Supported Boards
 * Blueinno AIOT RP2040
@@ -67,35 +62,6 @@ Them hit the upload button and your sketch should upload and run.
 
 In some cases the Pico will encounter a hard hang and its USB port will not respond to the auto-reset request.  Should this happen, just
 follow the initial procedure of holding the BOOTSEL button down while plugging in the Pico to enter the ROM bootloader.
-
-# Features
-
-> TO BE UPDATED
-
-* Adafruit TinyUSB Arduino (USB mouse, keyboard, flash drive, generic HID, CDC Serial, MIDI, WebUSB, others)
-* Bluetooth on the PicoW (Classic and BLE) with Keyboard, Mouse, Joystick, and Virtual Serial
-* Generic Arduino USB Serial, Keyboard, Joystick, and Mouse emulation
-* WiFi (Pico W)
-* HTTP client and server (WebServer)
-* SSL/TLS/HTTPS
-* Over-the-Air (OTA) upgrades
-* Filesystems (LittleFS and SD/SDFS)
-* Multicore support (setup1() and loop1())
-* FreeRTOS SMP support
-* Overclocking and underclocking from the menus
-* digitalWrite/Read, shiftIn/Out, tone, analogWrite(PWM)/Read, temperature
-* Analog stereo audio in using DMA and the built-in ADC
-* Analog stereo audio out using PWM hardware
-* USB drive mode for data loggers (SingleFileDrive)
-* Peripherals:  SPI master, Wire(I2C) master/slave, dual UART, emulated EEPROM, I2S audio input, I2S audio output, Servo
-* printf (i.e. debug) output over USB serial
-
-The RP2040 PIO state machines (SMs) are used to generate jitter-free:
-* Servos
-* Tones
-* I2S Input
-* I2S Output
-* Software UARTs (Serial ports)
 
 # Tutorials from Across the Web
 
