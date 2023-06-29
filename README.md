@@ -48,6 +48,12 @@ cd ../tools
 python3 ./get.py
 ```
 
+# Build OTA Bootloader
+```
+cd ota
+./make-ota.sh
+```
+
 # Uploading Sketches
 
 > TO BE UPDATED
